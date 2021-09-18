@@ -1,0 +1,66 @@
+.filterbar{
+    margin-top: 5vh;
+    
+    margin-left:8vw;
+}
+#searchdark{
+    background-color: hsl(209, 23%, 22%);
+    border-radius: 5px;
+    padding-right:20px;
+    color:hsl(0, 0%, 100%);
+    width:50vh;
+    height:6vh;
+    outline-style: none;
+    border:none;
+    
+}
+::placeholder {
+    color:darkgrey;
+    font-size: .8rem;
+    padding:2vh;
+}
+.btn-dark{
+    background-color: hsl(209, 23%, 22%);
+    color:white;
+    border:none; 
+    font-size:1rem ; 
+    outline:none;
+}
+.dropdown-menu-dark{
+    background-color: hsl(209, 23%, 22%);
+}
+.dropdown-menu-dark>.dropdown-item{
+    color: white;
+}
+.dropdown-menu-dark>.dropdown-item:hover{
+    background-color: hsl(207, 26%, 17%);
+}
+
+#searchlight{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    padding-right:20px;
+    color:hsl(200, 15%, 8%);
+    width:50vh;
+    height:6vh;
+    outline-style: none;
+    border:none;
+    
+}
+.btn-light{
+    background-color: hsl(0, 0%, 100%);
+    color:hsl(200, 15%, 8%);
+    border:none; 
+    font-size:1rem ; 
+    outline:none;
+}
+.dropdown-menu-light{
+    background-color: hsl(0, 0%, 100%);
+}
+
+.dropdown-menu-light>.dropdown-item{
+    color:hsl(200, 15%, 8%);
+}
+.dropdown-menu-light>.dropdown-item:hover{
+    background-color: hsl(0, 0%, 96%);
+}
